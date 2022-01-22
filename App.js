@@ -8,7 +8,7 @@ app.use(express.static(__dirname + "/public"));
 app.set("view engine", "ejs");
 
 mongoose.connect(
-  "mongodb+srv://shivam:<shivamcovicure>@cluster0.e2hsa.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+  "mongodb+srv://shivam:<shivamcovicure>@cluster0.e2hsa.mongodb.net/registerDB?retryWrites=true&w=majority",
   { useNewUrlParser: true, useUnifiedTopology: true }
 );
 
