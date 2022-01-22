@@ -313,7 +313,7 @@ header .fa-bars {
 
 .contact form {
   text-align: center;
-  margin: 50px;
+  margin: 50px 50px 0 50px;
 }
 
 .contact form .inputBox {
@@ -516,7 +516,7 @@ header .fa-times {
   position: absolute;
   top: 6vh;
   left: 19vw;
-  height: 88vh;
+  /* height: 88vh; */
   /* height: 148vh; */
   width: 60vw;
   scroll-snap-align: start;

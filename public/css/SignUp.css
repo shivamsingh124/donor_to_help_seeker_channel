@@ -22,14 +22,7 @@
   background-color: black;
   overflow-y: scroll;
 }
-.button-body {
-  height: 100vh;
-  /* scroll-snap-type: y mandatory; */
-  background-color: black;
-  /* overflow-y: scroll; */
-  position: fixed;
-  width: 100vw;
-}
+
 
 *::selection {
   background: var(--black);
@@ -43,6 +36,7 @@ html {
 
 body {
   overflow-x: hidden;
+  background: black;
 }
 
 .button {
@@ -322,7 +316,7 @@ header .fa-bars {
 
 .contact form {
   text-align: center;
-  margin: 30px;
+  margin: 30px 30px 0 30px;
 }
 
 .contact form .inputBox {
@@ -528,7 +522,7 @@ header .fa-times {
   position: absolute;
   top: 14vh;
   left: 19vw;
-  height: 110vh;
+  /* height: 110vh; */
   width: 60vw;
   scroll-snap-align: start;
 }
