@@ -26,7 +26,7 @@ svg {
   background: var(--black);
   color: #fff;
 }
-.col-md-6 d-none d-md-block aos-init aos-animate{
+.doctorimg{
   margin: 5% 15% 5% 15%;
   height: 90%;
   width: 70%;
