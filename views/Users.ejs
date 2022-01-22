@@ -8,20 +8,22 @@
   <style>
     .table {
       margin: 0 auto;
-      font-size: large;
-      border: 1px solid black;
-      background-color: #b3f7a2;
+    font-size: large;
+    border: 1px solid black;
+    background-color: #b3f7a2;
+    position: relative;
+    top: 8vh;
     }
 
     h1 {
-      z-index: 1000000;
-      position: sticky;
-      text-align: center;
-      color: #006600;
-      font-size: 4rem;
-      font-family: "Gill Sans", "Gill Sans MT", " Calibri", "Trebuchet MS",
-        "sans-serif";
-    }
+      margin: 0;
+    /* z-index: 1000000; */
+    /* position: sticky; */
+    text-align: center;
+    color: #006600;
+    font-size: 4rem;
+    font-family: "Gill Sans", "Gill Sans MT", " Calibri", "Trebuchet MS", "sans-serif";
+}
 
     td {
       background-color: #e4f5d4;
@@ -29,8 +31,11 @@
     }
 
     body {
-      background-image: url("images/image2.png");
-      background-size: cover;
+      background-image: url(images/image2.png);
+    background-size: cover;
+    /* background-repeat: inherit; */
+    height: 100vh;
+    width: 100vw;
     }
 
     th,
@@ -61,13 +66,14 @@
 
     .rect {
       top: 6vh;
-      height: 68px;
-      border: 5px solid cornflowerblue;
-      position: absolute;
-      border-radius: 23px;
-      left: 39vw;
-      background-color: aliceblue;
-      width: 301px;
+    height: 9vh;
+    border: 5px solid cornflowerblue;
+    /* position: relative; */
+    border-radius: 23px;
+    left: 39vw;
+    background-color: aliceblue;
+    width: 32vw;
+    position: relative;
     }
 
     .button {
