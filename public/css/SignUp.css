@@ -308,6 +308,7 @@ header .fa-bars {
 
 .contact {
   background: var(--black);
+  border-bottom: 14vh solid black !important;
 }
 
 .contact .heading {
@@ -519,6 +520,7 @@ header .fa-times {
 }
 
 .report {
+  padding: 10px 0 5px 0;
   position: absolute;
   top: 14vh;
   left: 19vw;
